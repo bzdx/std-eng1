@@ -11,7 +11,7 @@ async fn index() -> impl Responder {
 
 // #[get("/baidu_verify_code-abGIytVVhs.html")]
 async fn baidu() -> Result<NamedFile> {
-  println!("{}", 123123132);
+  // println!("{}", 123123132);
   Ok(NamedFile::open("baidu_verify_code-CNu82SU367.html")?)
 }
 
